@@ -26,14 +26,30 @@
 with absolute posistioning, you are essentially removing the element from the flow within its block. This means that the units you input, which are usually pixel (px) focused, will be 
 calculated in relation to the page you see as a whole. If one wishes to keep the element in the flow of its block, the "position: relative;" route is at your disposal. This will keep 
 the element in the flow, seen explicitly through the fact that there will be white space in the element's original position. The units you put in will move the element in relation to 
-its original placement on the block. 
+its original placement on the block.</p> 
 
 <h2>Pixels and Points</h2>
 
 <p>Pixels are used in the context of images and text sizing in HTML based sites. Every miniscule dot on our screens is a pixel, but the technical measurement is 1/92nd of an inch. 
-    
-</p>
+ Points are known for their role in changing the dimensions of typography specifically. The exact measurement of a point is 1/72nd of an inch. These units differ in their behavior 
+ in the context of various resolutions, sites, etc... For example, a pixel count can translate into a visually larger unit on your friend's computer. However, points do not alter from device to device.
 
 </p>
+
+<h2>The %</h2>
+
+<p>The percentage unit always acts in relation to another element's size occurring within the DOM--usually, this is the parent element. 
+
+    <textarea><div class="container">
+  <p>Full-size text (18px)</p>
+  <p><span class="half">50% (9px)</span></p>
+  <p><span class="double">200% (36px)</span></p>
+</div></textarea>
+
+</p>
+
+<h2></h2>
+
+
 </body>
 </html>
