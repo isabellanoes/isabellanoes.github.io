@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<!-- meta tags and title -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Code Log 3: CSS Media Queries</title>
+
+	<!-- external and internal CSS -->
+	<link rel="stylesheet" href="styles.css" media="all">
+	<style>
+		/* in-file CSS here */
+	</style>
+
+</head>
+<body>
+
+    <h1>What is CSS Media Query?</h1>
+
+    <p>These work to assign specific qualities to sites based on the user's mode of viewing; 
+        ex. phone, tablet, PC screen, or laptop. 
+        If someone has a screen that reaches 600px, you can rewrite the code to match a 14px font size. 
+        These sites are then called "responsive" designs. Media queries are useful because they ensure the quality of your design is always at its best. </p>
+
+        <textarea> @media only screen and (min-width: 1201px) {
+.container {font-size: 22px;</textarea> 
+    <textarea>@media screen and (max-width: 699px) and (min-width: 520px) {
+  ul li a {
+    padding-left: 30px;
+    background: url(email-icon.png) left center no-repeat;
+  }</textarea>
+	<div> </div>
+
+  <h1>Media Features</h1>
+
+  <p>if one puts <textarea>@media screen and (min-width: 480px) {
+body {
+background-color: lightgreen;
+}</textarea> the background color would change to light green on screens reaching at least 480px. 
+ </p>
+
+ <p>If <textarea>min-height: 680 px</textarea> was input, a specific quality would be given to screens
+reaching at least 680px. </p>
+
+<p><textarea>@media (orientation: portrait) {
+  body {
+    background-color: lightblue;
+  }</textarea> will provide a light blue background to any screens which display vertically.</p>
+
+  <p><textarea>@media (orientation: landscape) {
+  body {
+    background-color: darkred;
+  }</textarea>will provide a dark red background when viewing on a screen which displays horizontally.</p>
+
+</body>
+</html>
+
