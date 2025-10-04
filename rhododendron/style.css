@@ -1,6 +1,12 @@
+   
+ @media (min-width: 700px) {
 body {
-    font-family: 'Lucida Sans', serif;
+        background-color: green; 
+      
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 5;
     padding: 0;
     line-height: 1.6;
 }
+ }
